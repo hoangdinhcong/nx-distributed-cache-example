@@ -53,7 +53,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - "$NX_BRANCH"
       - build-pr:
           filters:
             branches:
